@@ -1,0 +1,36 @@
+:root{
+    --background-color: #4d9156;
+    --navigatiebalk-color: #3f59a7;
+    --navigatiebalk-hover-color: #5a93ad;
+    --navigatiebalk-text-color: #ffe133;
+}
+
+
+body{
+    background-color: var(--background-color);
+}
+.navigatiebalk{
+    color: #4d9156;
+    background-color: var(--navigatiebalk-color);
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 28%;
+    margin-right: 28%;
+    padding: 10px;
+    font-size: 22px;
+   
+
+}
+.navigatiebalk:hover{
+    background-color: var(--navigatiebalk-hover-color);
+   
+}
+.nav-text:hover{
+    background-color: var(--navigatiebalk-color);
+    border-radius: 5px;
+    font-weight:500;
+    font-style: italic;
+    font-style: italic;
+   
+}
