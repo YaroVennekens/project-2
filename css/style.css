@@ -146,3 +146,10 @@ a:any-link{
     opacity: 0;
     transition: ease-in-out 0.5s;
 }
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+      padding-top: 0.1rem; /* Adjust top padding */
+      padding-bottom: 0.0rem; /* Adjust bottom padding */
+      margin: 0.12rem 0; /* Adjust margin */
+    }
+  }
