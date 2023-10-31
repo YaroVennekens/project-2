@@ -128,6 +128,7 @@ a:any-link{
 }
 
 .logo {
+    padding-top: 50%;
     position: relative;
     display: inline-block;
     bottom: -20px;
