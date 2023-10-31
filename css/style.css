@@ -1,5 +1,6 @@
 :root{
     --background-color: #4d9156;
+    --background-tx-back-color: #3f7646;
     --navigatiebalk-color: #3f59a7;
     --navigatiebalk-hover-color: #5a93ad;
     --navigatiebalk-text-color: #ffe133;
@@ -22,6 +23,18 @@ body{
 
 
 }
+.carousel {
+    position: absolute;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+  }
+
+  .carousel-inner .carousel-item img {
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+  }
 .content {
     flex: 1;
   }
@@ -60,17 +73,26 @@ body{
     border-radius: 5px;
     margin-left: 28%;
     margin-right: 28%;
+    padding-top: 2%;
 }
 .text-center{
     font-size: 16px;
     text-align: center;
-    color: white;
+    color: orange;
 }
 .afbeelding{
     width: 20%;
     border-radius: 5%;
    border: 2px white solid;
 }
-.geel{
+.background-text{
+    background-color: var(--background-tx-back-color);
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
     color: white;
+}
+a:any-link{
+    color: white;
+    text-decoration: none;
 }
