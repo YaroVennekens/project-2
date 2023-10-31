@@ -5,13 +5,16 @@
     --navigatiebalk-hover-color: #457e4d;
     --navigatiebalk-text-color: #ffe133;
 }
+*{
+   scroll-behavior: smooth;
+}
 
 body{
     min-height: 100vh;
     background-color: var(--background-color);
+    position: relative;
+    padding-bottom: 5px;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 .navigatiebalk{
     color: white;
@@ -99,4 +102,46 @@ a:any-link{
 .link-decoration{
     color: yellow;
     text-decoration: underline;
+}
+
+/* Intro Styles */
+.intro {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-tx-back-color);
+    color: white;
+    backdrop-filter: invert(5%) blur(5px);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.logo-header {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--wit);
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
 }
