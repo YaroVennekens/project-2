@@ -4,6 +4,7 @@
     --navigatiebalk-color: #3f7646;
     --navigatiebalk-hover-color: #457e4d;
     --navigatiebalk-text-color: #ffe133;
+    --beige:  rgb(207, 207, 175);
 }
 *{
    scroll-behavior: smooth;
@@ -43,7 +44,7 @@ body{
   }
 
   .footer {
-    background-color: beige;
+    background-color: var(--beige);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -63,7 +64,7 @@ body{
     color: white;
 }
 .nav-text:hover{
-    color: orange;
+    color: var(--beige);
     background-color: var(--navigatiebalk-color);
     border-radius: 5px;
     font-weight:500;
@@ -96,8 +97,11 @@ body{
     color: white;
 }
 a:any-link{
-    color: beige;
+    color: var(--beige);
     text-decoration: none;
+}
+a:any-link:hover{
+    font-weight: bold   ;
 }
 .link-decoration{
     color: yellow;
@@ -112,7 +116,7 @@ a:any-link{
     top: 0;
     width: 100%;
     height: 100vh;
-    background-color: var(--background-tx-back-color);
+    background-color: var(--background-color);
     color: white;
     backdrop-filter: invert(5%) blur(5px);
     transition: 1s;
@@ -126,6 +130,10 @@ a:any-link{
     transform: translate(-50%, -50%);
     color: var(--wit);
 }
+h1{
+font-size: 25px;
+}
+
 
 .logo {
     padding-top: 50%;
@@ -148,8 +156,11 @@ a:any-link{
 }
 @media (max-width: 768px) {
     .navbar-nav .nav-link {
-      padding-top: 0.1rem; /* Adjust top padding */
+      font-size: 15px;
+      padding-top: 0.0rem; /* Adjust top padding */
       padding-bottom: 0.0rem; /* Adjust bottom padding */
-      margin: 0.12rem 0; /* Adjust margin */
+      margin: 0.16rem 0; /* Adjust margin */
     }
   }
+
+ 
