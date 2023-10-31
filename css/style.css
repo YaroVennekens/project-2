@@ -8,20 +8,36 @@
 body{
     min-height: 100vh;
     background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .navigatiebalk{
     color: white;
     background-color: var(--navigatiebalk-color);
-    border: 0px;
     border-radius: 5px;
     margin-left: 28%;
     margin-right: 28%;
-    padding: 10px;
     font-size: 22px;
-   
+
 
 }
+.content {
+    flex: 1;
+  }
 
+  .footer {
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .social-icons {
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+  }
 .navigatiebalk:hover{
     background-color: var(--navigatiebalk-hover-color);
    
@@ -44,4 +60,17 @@ body{
     border-radius: 5px;
     margin-left: 28%;
     margin-right: 28%;
+}
+.text-center{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.afbeelding{
+    width: 20%;
+    border-radius: 5%;
+   border: 2px white solid;
+}
+.geel{
+    color: white;
 }
