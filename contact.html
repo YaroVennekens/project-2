@@ -20,7 +20,7 @@
 </head>
 
 <body>
-  <header>
+  <div>
    
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid navigatiebalk">
@@ -49,18 +49,34 @@
         </div>
       </div>
     </nav>
- 
-    <footer class="footer background-text">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="https://github.com/YaroVennekens" class="social-icons"><i class="fab fa-github"></i></a>
-            <a href="http://instagram.com/y.ennekens/" class="social-icons"><i class="fab fa-instagram"></i></a>
-            <p class="text">Copyright &copy; 2023 Vennekens Yaro</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+
+
+
+    <div class="form">
+    <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">🙋‍♂️ Vul je voornaam in</label>
+        <input type="text" id="fname" name="firstname" placeholder="Vul hier je naam in (voorbeeld: Jan)">
+    
+        <label for="lname">✏️ Vul je achternaam in</label>
+        <input type="text" id="lname" name="lastname" placeholder="Vul hier je achternaam in (voorbeeld: Jansens)">
+    
+        <label for="email">📧 E-Mail</label>
+        <input type="text" id="emial" name="email" placeholder="Vul je email in (Voorbeeld Jan.Jansens＠gmail.com)">
+    
+        <label for="subject">❓ Vraag</label>
+        <textarea id="subject" name="subject" placeholder="Formulier hier je vraag 🙂" style="height:200px"></textarea>
+    
+        <input type="submit" class="stuur" value="✈️ Versturen">
+    
+      </form>
+    </div>
+  </div>
+</div>
+<div class="google">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39950.233417540454!2d5.046473702034028!3d51.257942234773815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ca82907a052b%3A0xc22ee00b4be92b5f!2s2470%20Retie!5e0!3m2!1snl!2sbe!4v1698870105747!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
   </main>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
