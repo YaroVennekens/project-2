@@ -9,7 +9,16 @@
 *{
    scroll-behavior: smooth;
 }
-
+.yaro{
+    font-weight: bold;
+    padding-left: 30px;
+    font-family:'Courier New', Courier, monospace;
+    margin-right: 50px;
+    color: beige;
+}
+.yaro:hover{
+    color: beige;
+}
 body{
     min-height: 100vh;
     background-color: var(--background-color);
@@ -133,6 +142,7 @@ a:any-link:hover{
 }
 h1{
 font-size: 25px;
+color: beige;
 }
 
 
