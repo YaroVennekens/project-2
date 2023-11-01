@@ -87,7 +87,8 @@ body{
 .afbeelding{
     width: 20%;
     border-radius: 5%;
-   border: 2px white solid;
+   border: 2px var(--beige) solid;
+   margin-bottom: 20px;
 }
 .background-text{
     background-color: var(--background-tx-back-color);
